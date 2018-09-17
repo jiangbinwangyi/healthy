@@ -1,0 +1,7 @@
+1.countUp.vue组件 this.counter.update(endVal) 注释，避免报错
+
+2.v1.1版本已经修改了areaRiskPross组件还是使用iview自带的progress组件，并调整相应样式
+
+3.修改了helpMoneyNumber组件数据结构，以及采用ajax异步请求（count.json）
+
+4.appZhinengPaicha.vue组件和zhinengPaicha.vue组件的数据结构调整（count.json）

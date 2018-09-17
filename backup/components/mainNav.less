@@ -1,0 +1,46 @@
+.main {
+    .main-nav{
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        overflow: hidden;
+        text-align: right;
+        background: #515a6e;
+        .main-nav-icon{
+            background: #fff;
+            margin: 10px;
+            padding: 0 4px;
+            font-size: 16px;
+            width: auto;
+            display: inline-block;
+            border-radius: 3px;
+            transition: transform .2s ease-in-out;
+        }
+        .ivu-menu{
+            height: 100%;
+        }
+        .main-nav-item{
+            padding: 14px 6px 14px 16px;
+            border-bottom: solid 1px #454b59;
+            i{
+                font-size: 18px;
+                margin-left: 3px;
+            }
+        }
+    }
+    .main-nav.active{
+        .main-nav-icon{
+            transform: rotate(90deg);
+        }
+        .main-nav-item{
+            span{
+                display: none;
+            }
+            i{
+                font-size: 22px;
+            }
+        }
+    }
+}

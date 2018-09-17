@@ -1,0 +1,159 @@
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: inline-block;
+        line-height: .6258rem;
+        z-index: 901; /*menu900*/
+        background: url(../assets/images/title_bg.png) no-repeat;
+        background-size: 100%;
+        padding: 0 1.518rem;
+        overflow: hidden;
+        height: .6884rem;
+        h1 {
+            color: #fff;
+            font-size: .375rem;
+            display: inline;
+            vertical-align: middle;
+            padding-left: .1rem;
+        }
+        img{
+            width: .375rem;
+            vertical-align: middle;
+        }
+    }
+    
+    .ivu-layout{
+        background: -webkit-linear-gradient(left,#030b18,#11315a,#030b18 );
+        height: 100%;
+    }
+    
+    .ivu-layout-header{
+        background: none;
+        height: auto;
+        line-height: inherit;
+        padding: .0782rem 0.469rem .1877rem;
+        overflow: hidden;
+    }
+    
+    .ivu-menu.ivu-menu-horizontal.ivu-menu-light{
+        position: relative;
+        margin: 0;
+        background: none;
+        height: .5476rem;
+        line-height: .5476rem;
+        li.ivu-menu-item{
+            position: absolute;
+            color: #fff;
+            overflow-y:  hidden; 
+            overflow-x:  visible; 
+            background: url(../assets/images/nav_bg.png) no-repeat;
+            background-size: 100% 100%;
+            border: none;
+            padding: 0 .3129rem;
+            font-size: .219rem;
+        }
+        li.ivu-menu-item:hover,
+        li.ivu-menu-item-active{
+            border-width: 1px;
+            color: #fff;
+            border: none;
+            background: url(../assets/images/nav_bg_cur.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        li.ivu-menu-item:nth-of-type(1){
+            left: 0;
+        }
+        li.ivu-menu-item:nth-of-type(2){
+            left: 2.19rem;
+        }
+        li.ivu-menu-item:nth-of-type(3){
+            right: 2.19rem;
+        }
+        li.ivu-menu-item:nth-of-type(4){
+            right: 0;
+        }
+        &:after{
+            display: none;
+        }
+    }
+    
+    .main-box{
+        padding: 0 10px;
+    }
+    .card.ivu-card{
+        background: none;
+        border: solid 1px #153663;
+        padding: .18rem .22rem;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .ivu-card-head{
+        padding: 0 0 .2rem;
+        border: none;
+        p{
+            &:before{
+                content: ">> ";
+            }
+            color: #fff;
+            height: auto;
+            font-size: .219rem;
+            line-height: 1.6;
+        }
+    }
+    .ivu-card-body{
+        padding: 0;
+    }
+    .mb_10{
+        margin-bottom: .189rem;
+    }
+    
+    @tableBorderColor: #34486a;
+    .ivu-table,.ivu-table td{
+        background: none;
+        color: #fff;      
+    }
+    .ivu-table-header,.ivu-table th{
+        background: rgba(30,134,193,.2);
+        color: #00fff6;
+    }
+    .ivu-table-wrapper,.ivu-table td{
+        border-color: @tableBorderColor;
+    }
+    .ivu-table th{
+        border-color: #2c608b;
+        height: .4381rem;
+        text-align: center; 
+    }
+    .ivu-table td{
+        height: .6258rem;
+    }
+    .ivu-table:before,.ivu-table:after{
+        background-color: @tableBorderColor;
+    }
+    
+    .ivu-page-next, .ivu-page-prev,
+    .ivu-page-item{
+        background: none;
+    }
+    .ivu-page-total,
+    .ivu-page-next a, .ivu-page-prev a,
+    .ivu-page-item a{
+        color: #fff;
+    }
+    .ivu-page-item-active a, .ivu-page-item-active:hover a{
+        color: #2d8cf0;
+    }
+    .ivu-page-disabled a{
+        color: #515a6e;
+    }
+    .ivu-table-cell{
+        padding: 0 3px;
+    }
+}

@@ -1,0 +1,86 @@
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: inline-block;
+        z-index: 901; /*menu900*/
+        h1 {
+            color: #fff;
+            font-size: 0.567rem;
+        }
+    }
+    
+    .ivu-layout{
+        background: -webkit-linear-gradient(left,#030b18,#11315a,#030b18 );
+    }
+    
+    .ivu-layout-header{
+        background: none;
+    }
+    
+    .ivu-menu{
+        position: relative;
+        margin-top: .2rem;
+        background: none;
+        height: .8rem;
+        line-height: .8rem;
+        li.ivu-menu-item{
+            border: solid 1px #3d8ff3;
+            position: absolute;
+            color: #fff;
+        }
+        li.ivu-menu-item:hover,
+        li.ivu-menu-item-active{
+            border-width: 1px;
+            background: #18347e;
+            color: #fff;
+        }
+        li.ivu-menu-item:nth-of-type(1){
+            left: 0;
+        }
+        li.ivu-menu-item:nth-of-type(2){
+            left: 140px;
+        }
+        li.ivu-menu-item:nth-of-type(3){
+            right: 140px;
+        }
+        li.ivu-menu-item:nth-of-type(4){
+            right: 0;
+        }
+        &:after{
+            display: none;
+        }
+    }
+    
+    .main-box{
+        margin-right: 53px;
+        padding: 0 2% 2%;
+    }
+    
+    .cardBox{
+        height: 3.8rem;
+    }
+    .card{
+        background: rgba(255,255,255,.2);
+        padding: .18rem .22rem;
+    }
+    .ivu-card-head{
+        padding: 0 0 .2rem;
+        border: none;
+        p{
+            color: #fff;
+            height: auto;
+            font-size: .265rem;
+            line-height: 1;
+        }
+    }
+    .ivu-card-body{
+        padding: 0;
+    }
+}

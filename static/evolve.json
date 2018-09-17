@@ -1,0 +1,94 @@
+{
+	"area": ["A区","B区","C区","D区"],
+	"recourd": {
+		"yes": [4567,4678,3456,4678],
+		"no": [1234,1231,2312,1743,1432]
+	},
+	"help": {
+		"helped": 4302,
+		"own":  893
+	},
+	"doctorData": [
+		{
+			"area": "A区",
+			"doctor": 1400,
+			"person": 14000,
+			"number": 12000,
+			"work": "92%"
+		},
+		{
+			"area": "B区",
+			"doctor": 980,
+			"person": 8000,
+			"number": 9000,
+			"work": "95%"
+		},
+		{
+			"area": "C区",
+			"doctor": 600,
+			"person": 5300,
+			"number": 4500,
+			"work": "75%"
+		},{
+			"area": "D区",
+			"doctor": 1200,
+			"person": 10100,
+			"number": 11000,
+			"work": "98%"
+		}
+	],
+	"evolve": {
+		"yes": [60,50,80],
+		"no": [40,50,20]
+	},
+	"evolveClass": ["建档","义诊","补助金"],
+	"device": [
+		{
+			"area": "A区",
+			"hospital": "A区人民医院",
+			"name": "飞利浦CT机",
+			"date": "2015年6月",
+			"number": "4台",
+			"times": "1100人次",
+			"bad": "1台"
+		},
+		{
+			"area": "A区",
+			"hospital": "A区人民医院",
+			"name": "飞利浦CT机",
+			"date": "2015年6月",
+			"number": "4台",
+			"times": "1100人次",
+			"bad": "1台"
+		},{
+			"area": "B区",
+			"hospital": "A区人民医院",
+			"name": "飞利浦CT机",
+			"date": "2015年6月",
+			"number": "4台",
+			"times": "1100人次",
+			"bad": "1台"
+		},{
+			"area": "B区",
+			"hospital": "A区人民医院",
+			"name": "飞利浦CT机",
+			"date": "2015年6月",
+			"number": "4台",
+			"times": "1100人次",
+			"bad": "1台"
+		},{
+			"area": "D区",
+			"hospital": "A区人民医院",
+			"name": "飞利浦CT机",
+			"date": "2015年6月",
+			"number": "4台",
+			"times": "1100人次",
+			"bad": "1台"
+		}
+	],
+	"deviceClass": {
+		"ct": [4,2,3,4],
+		"hc": [2,3,1,2],
+		"cs": [4,3,3,5]
+	}
+}
